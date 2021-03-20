@@ -1,0 +1,10 @@
+D:\_Progi (c#) 4 sem\lab_1 (form)\lab_1 (form)\bin\Release\lab_1 (form).exe.config
+D:\_Progi (c#) 4 sem\lab_1 (form)\lab_1 (form)\bin\Release\lab_1 (form).exe
+D:\_Progi (c#) 4 sem\lab_1 (form)\lab_1 (form)\bin\Release\lab_1 (form).pdb
+D:\_Progi (c#) 4 sem\lab_1 (form)\lab_1 (form)\obj\Release\lab_1 (form).csprojAssemblyReference.cache
+D:\_Progi (c#) 4 sem\lab_1 (form)\lab_1 (form)\obj\Release\lab_1__form_.Form1.resources
+D:\_Progi (c#) 4 sem\lab_1 (form)\lab_1 (form)\obj\Release\lab_1__form_.Properties.Resources.resources
+D:\_Progi (c#) 4 sem\lab_1 (form)\lab_1 (form)\obj\Release\lab_1 (form).csproj.GenerateResource.cache
+D:\_Progi (c#) 4 sem\lab_1 (form)\lab_1 (form)\obj\Release\lab_1 (form).csproj.CoreCompileInputs.cache
+D:\_Progi (c#) 4 sem\lab_1 (form)\lab_1 (form)\obj\Release\lab_1 (form).exe
+D:\_Progi (c#) 4 sem\lab_1 (form)\lab_1 (form)\obj\Release\lab_1 (form).pdb
