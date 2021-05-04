@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF3E4571-65BA-4417-97C2-94BA0C28BCA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>lab_3_new_ver</RootNamespace>
+    <AssemblyName>lab_3_new_ver</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="Forms\CommandLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CommandLine.Designer.cs">
+      <DependentUpon>CommandLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interpreter.cs" />
+    <Compile Include="WorkWithDIsks.cs" />
+    <Compile Include="WorkWithFiles.cs" />
+    <Compile Include="WorkWithFolders.cs" />
+    <Compile Include="Forms\MainAppForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainAppForm.Designer.cs">
+      <DependentUpon>MainAppForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewDiskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewDiskForm.Designer.cs">
+      <DependentUpon>NewDiskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewFileForm.Designer.cs">
+      <DependentUpon>NewFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewFolderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewFolderForm.Designer.cs">
+      <DependentUpon>NewFolderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\CommandLine.resx">
+      <DependentUpon>CommandLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainAppForm.resx">
+      <DependentUpon>MainAppForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewDiskForm.resx">
+      <DependentUpon>NewDiskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewFileForm.resx">
+      <DependentUpon>NewFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewFolderForm.resx">
+      <DependentUpon>NewFolderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8e7d4883355d540879ea6cce3c0f61e4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4a04759fd2589edc2c65af669270c731.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\09addc0a2412f5f66e497d7d1d18cfe1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7790ad1a1f58d5fc7276e2ab78d604b8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9913f531200ada189985d7a1ea1f470f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7790ad1a1f58d5fc7276e2ab78d604b81.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6af33d16ca1013b58f063ad8f43ec27a.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
