@@ -1,0 +1,30 @@
+D:\_Progi (c#) 4 sem\lab_2\lab_2\bin\Debug\lab_2.exe.config
+D:\_Progi (c#) 4 sem\lab_2\lab_2\bin\Debug\lab_2.exe
+D:\_Progi (c#) 4 sem\lab_2\lab_2\bin\Debug\lab_2.pdb
+D:\_Progi (c#) 4 sem\lab_2\lab_2\obj\Debug\lab_2.csprojAssemblyReference.cache
+D:\_Progi (c#) 4 sem\lab_2\lab_2\obj\Debug\lab_2.Properties.Resources.resources
+D:\_Progi (c#) 4 sem\lab_2\lab_2\obj\Debug\lab_2.csproj.GenerateResource.cache
+D:\_Progi (c#) 4 sem\lab_2\lab_2\obj\Debug\lab_2.csproj.CoreCompileInputs.cache
+D:\_Progi (c#) 4 sem\lab_2\lab_2\obj\Debug\lab_2.exe
+D:\_Progi (c#) 4 sem\lab_2\lab_2\obj\Debug\lab_2.pdb
+E:\m1\lab_2\lab_2\bin\Debug\lab_2.exe.config
+E:\m1\lab_2\lab_2\bin\Debug\lab_2.exe
+E:\m1\lab_2\lab_2\bin\Debug\lab_2.pdb
+E:\m1\lab_2\lab_2\obj\Debug\lab_2.csprojAssemblyReference.cache
+E:\m1\lab_2\lab_2\obj\Debug\lab_2.Form1.resources
+E:\m1\lab_2\lab_2\obj\Debug\lab_2.Properties.Resources.resources
+E:\m1\lab_2\lab_2\obj\Debug\lab_2.csproj.GenerateResource.cache
+E:\m1\lab_2\lab_2\obj\Debug\lab_2.csproj.CoreCompileInputs.cache
+E:\m1\lab_2\lab_2\obj\Debug\lab_2.exe
+E:\m1\lab_2\lab_2\obj\Debug\lab_2.pdb
+E:\lab_2\lab_2\bin\Debug\lab_2.exe.config
+E:\lab_2\lab_2\bin\Debug\lab_2.exe
+E:\lab_2\lab_2\bin\Debug\lab_2.pdb
+E:\lab_2\lab_2\obj\Debug\lab_2.csprojAssemblyReference.cache
+E:\lab_2\lab_2\obj\Debug\lab_2.Form1.resources
+E:\lab_2\lab_2\obj\Debug\lab_2.Properties.Resources.resources
+E:\lab_2\lab_2\obj\Debug\lab_2.csproj.GenerateResource.cache
+E:\lab_2\lab_2\obj\Debug\lab_2.csproj.CoreCompileInputs.cache
+E:\lab_2\lab_2\obj\Debug\lab_2.exe
+E:\lab_2\lab_2\obj\Debug\lab_2.pdb
+D:\_Progi (c#) 4 sem\lab_2\lab_2\obj\Debug\lab_2.App.resources
