@@ -1,5 +1,0 @@
-D:\2 курс\OSIO\OSIO4\out\obj\Debug\net5.0\out.csprojAssemblyReference.cache
-D:\2 курс\OSIO\OSIO4\out\obj\Debug\net5.0\out.GeneratedMSBuildEditorConfig.editorconfig
-D:\2 курс\OSIO\OSIO4\out\obj\Debug\net5.0\out.AssemblyInfoInputs.cache
-D:\2 курс\OSIO\OSIO4\out\obj\Debug\net5.0\out.AssemblyInfo.cs
-D:\2 курс\OSIO\OSIO4\out\obj\Debug\net5.0\out.csproj.CoreCompileInputs.cache
